@@ -1,2 +1,2 @@
-# aggregation_from_MD
-This script will measure the number of aggregates and average aggregate size from a simulation of multiple carbohydrates.
+## aggregation_from_MD
+This script will measure the number of aggregates and average aggregate size from a simulation of multiple carbohydrates. The main script is "aggregation_one_trajectory.py", which imports the "aggregation_PBC" module to calculate number of aggregates and average aggregate size of every frame of a simulation. I have also provided an additional script that will generate plots for time series data and as averages across the simulation. The input required is a wrapped MD trajectory that has been converted to one file containing a series of PDBs, with water stripped. In this example, a simulation of B-D-Glucose that was simulated in the OPC water model in AMBER is provided.
