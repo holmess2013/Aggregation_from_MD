@@ -5,7 +5,7 @@ import numpy as np
 
 # The input for this program should be an autoimaged trajectory of multiple sugars with water stripped, in PDB format.
 
-sys_name = "0.a-Maltoheptaose_OPC"
+sys_name = "B-D-Glc_OPC"
 
 # Read in trajectory
 with open(f"{sys_name}_wrapped.pdb") as f:
